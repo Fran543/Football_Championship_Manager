@@ -1,0 +1,5 @@
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\Utils\bin\Debug\Utils.dll
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\Utils\bin\Debug\Utils.pdb
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\Utils\obj\Debug\Utils.csprojAssemblyReference.cache
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\Utils\obj\Debug\Utils.dll
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\Utils\obj\Debug\Utils.pdb

@@ -1,0 +1,117 @@
+﻿<Window x:Class="WpfAplikacija.Reprezentacija"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lang="clr-namespace:WpfAplikacija.Properties"
+        xmlns:local="clr-namespace:WpfAplikacija"
+        mc:Ignorable="d"
+        Title="{x:Static lang:Resources.lblReprezentacija}" Height="450" Width="300"
+        WindowStartupLocation="CenterScreen"
+        Background="ForestGreen"
+        >
+
+    <ScrollViewer>
+
+        <Grid HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock
+                Style="{StaticResource NaslovTmp}"
+                x:Name="lblZemlja"
+                Grid.Row="0"/>
+
+            <Label
+                Style="{StaticResource LabelTmp}"
+                Content="{x:Static lang:Resources.lblFifaKod}"
+                Grid.Row="1"/>
+            <Label
+                Style="{StaticResource LabelTmp}"
+                x:Name="lblFifaKod"
+                Grid.Row="2"/>
+
+            <Label
+                Style="{StaticResource LabelTmp}"
+                Content="{x:Static lang:Resources.lblOdigraneUtakmice}"
+                Grid.Row="3"/>
+            <Label
+                Style="{StaticResource LabelTmp}"
+                x:Name="lblOdigraneUtakmice"
+                Grid.Row="4"/>
+
+            <Label
+                Style="{StaticResource LabelTmp}"
+                Content="{x:Static lang:Resources.lblDobiveneUtakmice}"
+                Grid.Row="5"/>
+            <Label
+                Style="{StaticResource LabelTmp}"
+                x:Name="lblDobiveneUtakmice"
+                Grid.Row="6"/>
+
+            <Label
+                Style="{StaticResource LabelTmp}"
+                Content="{x:Static lang:Resources.lblIzgubljeneUtakmice}"
+                Grid.Row="7"/>
+            <Label
+                Style="{StaticResource LabelTmp}"
+                x:Name="lblIzgubljeneUtakmice"
+                Grid.Row="8"/>
+
+            <Label
+                Style="{StaticResource LabelTmp}"
+                Content="{x:Static lang:Resources.lblNerijeseneUtakmice}"
+                Grid.Row="9"/>
+            <Label
+                Style="{StaticResource LabelTmp}"
+                x:Name="lblNeriješeneUtakmice"
+                Grid.Row="10"/>
+
+            <Label
+                Style="{StaticResource LabelTmp}"
+                Content="{x:Static lang:Resources.lblBrZabijenihGolova}"
+                Grid.Row="11"/>
+            <Label
+                Style="{StaticResource LabelTmp}"
+                x:Name="lblBrZabijenihGolova"
+                Grid.Row="12"/>
+
+            <Label
+                Style="{StaticResource LabelTmp}"
+                Content="{x:Static lang:Resources.lblBrojPrimljenihGolova}"
+                Grid.Row="13"/>
+            <Label
+                Style="{StaticResource LabelTmp}"
+                x:Name="lblBrPrimljenihGolova"
+                Grid.Row="14"/>
+
+            <Label
+                Style="{StaticResource LabelTmp}"
+                Content="{x:Static lang:Resources.lblRazlikGolova}"
+                Grid.Row="15"/>
+            <Label
+                Style="{StaticResource LabelTmp}"
+                x:Name="lblRazlika"
+                Grid.Row="16"/>
+
+        </Grid>
+    </ScrollViewer>
+    
+</Window>

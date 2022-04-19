@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="WpfAplikacija.IgracKontrola"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfAplikacija"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="200"
+             
+     >
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Image  
+            Grid.Row="0"
+            Source="Slike\soccer-player.png"
+            x:Name="imgIgrac">
+            
+        </Image>
+        <Grid
+            Grid.Row="0">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Image
+                Grid.Row="0"
+                Grid.Column="2"
+                Source="Slike\yellow-card.png"
+                x:Name="imgZuti"/>
+            <Image
+                Grid.Row="2"
+                Grid.Column="2"
+                Source="Slike\captain.png"
+                x:Name="imgKapetan"/>
+        </Grid>
+
+        <Label
+            Grid.Row="1"
+            HorizontalAlignment="Center"
+            x:Name="lblBrojNaDresu"
+            Style="{StaticResource LabelTmp}"
+            FontSize="22"            
+            />
+
+        <TextBlock
+            Grid.Row="2"
+            HorizontalAlignment="Center"
+            x:Name="lblIme"
+            Style="{StaticResource TBTmp}"
+            FontSize="13"/>
+
+    </Grid>
+</UserControl>

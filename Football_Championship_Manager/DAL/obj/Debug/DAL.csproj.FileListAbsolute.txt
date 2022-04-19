@@ -1,0 +1,12 @@
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\bin\Debug\DAL.dll
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\bin\Debug\DAL.pdb
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\bin\Debug\RestSharp.dll
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\bin\Debug\Utils.dll
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\bin\Debug\Utils.pdb
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\bin\Debug\RestSharp.xml
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\obj\Debug\DAL.dll
+C:\OOP_praktikum\OOP_projekt_Fran_Diklic_Dorada\DAL\obj\Debug\DAL.pdb
